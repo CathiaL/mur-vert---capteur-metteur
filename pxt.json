@@ -1,0 +1,34 @@
+{
+    "name": "Mur vert - capteur émetteur",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "gatorSoil": "github:sparkfun/pxt-gator-soil#v1.1.2",
+        "climate-action-kit-land": "github:climate-action-kits/pxt-climate-action-kit-land#v2.2.1",
+        "servo": "*",
+        "pxt-rekabit-rbt-project-kit": "github:cytrontechnologies/pxt-rekabit-rbt-project-kit#v1.1.4",
+        "pxt-fwd-edu": "github:climate-action-kits/pxt-fwd-edu#v1.5.1"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v6.0.19",
+        "tag": "v6.0.19",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/19507cc84a19f2a882b2fbe58b4ae3a5cb79cbf9",
+        "target": "6.0.25",
+        "pxt": "9.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
